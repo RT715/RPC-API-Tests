@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+    <test verbose="2" name="TestName">
+        <classes>
+            <class name="RegressionTest">
+                <methods>
+                    <include name="setUserAAge"/>
+                    <include name="setUserBAge"/>
+                    <include name="setUserFcmToken"/>
+                    <include name="setUserIp"/>
+                    <include name="getSharedPromptsAndCreateChat"/>
+                    <include name="getSharedChatFeed"/>
+                    <include name="getSharedChatInfo"/>
+                    <include name="createAnonComment"/>
+                    <include name="publishAnonComments"/>
+                    <include name="createComment"/>
+                    <include name="createComplaint"/>
+                    <include name="muteGroupChat"/>
+                    <include name="unmuteGroupChat"/>
+                    <include name="archiveGroupChat"/>
+                    <include name="setContacts"/>
+                    <include name="initFeed"/>
+                    <include name="newGroupChatMutedVerification"/>
+                    <include name="setChatTitle"/>
+                    <include name="unfollowSuggestedChat"/>
+                    <include name="dmAfterFollowingChat"/>
+                    <include name="getInitialChats"/>
+                    <include name="createDirectMessage"/>
+                    <include name="deleteDM"/>
+                    <include name="muteDmChat"/>
+                    <include name="unmuteDmChat"/>
+                    <include name="noPushInMutedGroupChatVerification"/>
+                    <include name="noPushInMutedDmChatVerification"/>
+                    <include name="pushesKeepComingAfterUnmutingGroupChatVerification"/>
+                    <include name="pushesKeepComingAfterUnmutingDmChatVerification"/>
+                    <include name="deleteComment"/>
+                    <include name="blockUser"/>
+                    <include name="unblockUser"/>
+                    <include name="rejectComment"/>
+
+                    <include name="unarchiveGroupChat"/>
+                    <include name="setSuggestedChatViewed"/>
+                    <include name="setSuggestedChatsSeen"/>
+                    <include name="clearUnreadBadge"/>
+                    <include name="archiveDmChat"/>
+                    <include name="unarchiveDmChat"/>
+                    <include name="followSuggestedChatBySendingMessage"/>
+                    <include name="getChatParticipants"/>
+                    <include name="setUserFacebookData"/>
+                    <include name="createSmsInvites"/>
+                    <include name="setContactsForAds"/>
+                    <include name="createAppReview"/>
+                    <include name="acknowledgeCommentsRejection"/>
+                    <include name="acknowledgeDMRejection"/>
+                    <include name="setUserLastSession"/>
+                    <include name="getRatingPromptness"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
